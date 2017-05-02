@@ -17,8 +17,8 @@ namespace BasicSccExample
             string teamProject = "$/PruebasTfsVersionControl/sub";
 
             NetworkCredential netCred = new NetworkCredential(
-                "lfdantoni88@hotmail.com",
-                "Fate486592");
+                "*****",
+                "****");
             BasicAuthCredential basicCred = new BasicAuthCredential(netCred);
             TfsClientCredentials tfsCred = new TfsClientCredentials(basicCred);
             tfsCred.AllowInteractive = false;
